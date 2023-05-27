@@ -1,0 +1,203 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'Anton', sans-serif;
+  }
+
+  hr {
+    border-style: dashed;
+  }
+
+  body {
+    background-image: url(https://i.pinimg.com/564x/19/ae/78/19ae781f50e177bdf00778bdfbc0876a.jpg);
+    background-size: cover;
+  }
+  
+  header {
+    text-align: center;
+    width: 1500px;
+    font-size: 30px;;
+  }
+  
+  img {
+    height: 150px;
+    width: 250px;
+  }
+  
+  #nav-bar {
+    margin-bottom: 2rem;
+    padding: 0.8rem;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+  }
+  
+  #nav-logo {
+    flex-grow: 1;
+  }
+  
+  #nav-bar ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  #nav-bar .nav {
+    list-style-type: none;
+    margin: 0.5rem;
+    font-size: 20px;
+    color: white;
+  }
+
+  #sidebar {
+    width: 300px;
+    height: 1800px;
+    background-color: red;
+  }
+
+  #sidebar .nav{
+    list-style-type: none;
+    margin: 1rem;
+    font-size: 20px;
+  }
+  
+  #orientation{
+    display: flex;
+    color: white;
+  }
+
+  /*  Intro Content */
+  #intro {
+    display:flex;
+    padding-top: 5rem;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5rem;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 1120px;
+  }
+  
+  #intro pre {
+    margin-bottom: 1rem;
+    margin-left: 12rem;
+  }
+  
+  button {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: gold;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    margin: 0.5rem 0px;
+    position: relative;
+    left: 675px;
+    bottom: 100px;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+
+  h2 {
+    font-size: 40px;
+    width: 150px;
+  }
+
+  .title{
+    position: relative;
+    left: 420px;
+    font-size: 40px;
+    width: 150px;
+  }
+
+  #picture1{
+    height: 300px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+  }
+
+  #troops {
+    position: relative;
+    left: 400px;
+    bottom: 150px;
+    font-size: 20px;
+    width: 950px;
+  }
+
+  #picture2{
+    height: 300px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+  }
+
+  #heroes {
+    position: relative;
+    left: 400px;
+    bottom: 150px;
+    font-size: 20px;
+    width: 950px;
+  }
+
+  #picture3{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 500px;
+  }
+
+  #defenses {
+    position: relative;
+    left: 200px;
+    font-size: 20px;
+    width: 1120px;
+  }
+  
+  
+  /* Pre-footer */
+  #pre-footer {
+      background-color: red;
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+  }
+  
+  #pre-footer > article > * {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      margin-left: 5rem;
+      margin-right: 5rem;;
+  }
+
+  #pre-footer > article > p > a > img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  footer {
+      display: flex;
+      color:white;
+      justify-content: center;
+      align-items: center;
+      padding: 0.7rem;
+  }
+  
+  footer span {
+      margin:  0 0.5rem;
+  }
