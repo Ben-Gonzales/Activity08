@@ -14,16 +14,17 @@
     background-image: url(https://i.pinimg.com/564x/19/ae/78/19ae781f50e177bdf00778bdfbc0876a.jpg);
     background-size: cover;
   }
-  
-  header {
-    text-align: center;
-    width: 1500px;
-    font-size: 30px;;
+
+  #headerlogo {
+    height: 100px;;
   }
   
-  img {
-    height: 150px;
-    width: 250px;
+  header {
+    position: relative;
+    margin-left: 30rem;
+    margin-right: 40rem;
+    font-size: 30px;
+    left: 80px;
   }
   
   #nav-bar {
@@ -51,7 +52,7 @@
   }
 
   #sidebar {
-    width: 300px;
+    width: 200px;
     height: 1800px;
     background-color: red;
   }
@@ -67,7 +68,6 @@
     color: white;
   }
 
-  /*  Intro Content */
   #intro {
     display:flex;
     padding-top: 5rem;
@@ -79,17 +79,19 @@
     font-size: 25px;
     width: 1120px;
   }
-  
-  #intro pre {
-    margin-bottom: 1rem;
-    margin-left: 12rem;
+
+  #intro > #description {
+    position: relative;
+    left: 100px;
   }
+  
   
   button {
     color: white;
     display: flex;
     justify-content: center;
     font-weight: bold;
+    text-decoration-style: none;
     background-color: gold;
     border-radius: 10px;
     font-size: 1rem;
@@ -98,8 +100,7 @@
     text-align: center;
     margin: 0.5rem 0px;
     position: relative;
-    left: 675px;
-    bottom: 100px;
+    left: 570px;
   }
   
   button:hover {
@@ -115,55 +116,80 @@
     width: 150px;
   }
 
-  .title{
-    position: relative;
-    left: 420px;
-    font-size: 40px;
-    width: 150px;
+  #description {
+    text-align: center;
   }
 
   #picture1{
     height: 300px;
     position: relative;
     left: 100px;
-    top: 100px;
+    top: 50px;
   }
 
   #troops {
     position: relative;
     left: 400px;
-    bottom: 150px;
-    font-size: 20px;
-    width: 950px;
+    bottom: 200px;
+    font-size: 23px;
+    width: 700px;
+    height: 100px;
+  }
+
+  #troops > h2 {
+    position: relative;
+    left: 280px;
   }
 
   #picture2{
     height: 300px;
     position: relative;
     left: 100px;
-    top: 50px;
+    top: 100px;
   }
 
   #heroes {
     position: relative;
     left: 400px;
     bottom: 150px;
-    font-size: 20px;
-    width: 950px;
+    font-size: 23px;
+    width: 700px;
+    height: 150px;
+  }
+
+  #heroes > h2 {
+    position: relative;
+    left: 280px;
   }
 
   #picture3{
     height: 200px;
     width: 400px;
     position: relative;
-    left: 500px;
+    top: 50px;
+    left: 450px;
   }
 
   #defenses {
     position: relative;
-    left: 200px;
-    font-size: 20px;
-    width: 1120px;
+    top: 100px;
+    left: 150px;
+    font-size: 23px;
+    width: 900px;
+    height: 150px;
+  }
+
+  #defenses > h2 {
+    position: relative;
+    left: 420px;
+    font-size: 40px;
+    width: 150px;
+  }
+
+  #defenses > p {
+    position: relative;
+    left: 55px;
+    text-align: center;
   }
   
   
@@ -200,4 +226,9 @@
   
   footer span {
       margin:  0 0.5rem;
+  }
+
+  .nav:hover {
+    background-color: yellow;
+    color: black;
   }
